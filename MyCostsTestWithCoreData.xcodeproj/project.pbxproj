@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB4A2ECF2863467A006DADFA /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A2ECE2863467A006DADFA /* CoreDataManager.swift */; };
+		EB4A2ED22863499A006DADFA /* TestCost+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A2ED02863499A006DADFA /* TestCost+CoreDataClass.swift */; };
+		EB4A2ED32863499A006DADFA /* TestCost+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A2ED12863499A006DADFA /* TestCost+CoreDataProperties.swift */; };
+		EB4A2ED7286361F7006DADFA /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A2ED6286361F7006DADFA /* MyViewController.swift */; };
+		EB5F5F5128633FE80045D1B1 /* TabBarControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F5F5028633FE80045D1B1 /* TabBarControllers.swift */; };
+		EB5F5F54286342050045D1B1 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5F5F53286342050045D1B1 /* FirstTableViewController.swift */; };
 		EB94316228633E0E002E30E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94316128633E0E002E30E2 /* AppDelegate.swift */; };
 		EB94316428633E0E002E30E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94316328633E0E002E30E2 /* SceneDelegate.swift */; };
 		EB94316628633E0E002E30E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94316528633E0E002E30E2 /* ViewController.swift */; };
@@ -14,9 +20,16 @@
 		EB94316C28633E0E002E30E2 /* MyCostsTestWithCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB94316A28633E0E002E30E2 /* MyCostsTestWithCoreData.xcdatamodeld */; };
 		EB94316E28633E0F002E30E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB94316D28633E0F002E30E2 /* Assets.xcassets */; };
 		EB94317128633E0F002E30E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB94316F28633E0F002E30E2 /* LaunchScreen.storyboard */; };
+		EB94317A28633EFA002E30E2 /* TabBarST.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB94317928633EF9002E30E2 /* TabBarST.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB4A2ECE2863467A006DADFA /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EB4A2ED02863499A006DADFA /* TestCost+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestCost+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EB4A2ED12863499A006DADFA /* TestCost+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestCost+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EB4A2ED6286361F7006DADFA /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		EB5F5F5028633FE80045D1B1 /* TabBarControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllers.swift; sourceTree = "<group>"; };
+		EB5F5F53286342050045D1B1 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		EB94315E28633E0E002E30E2 /* MyCostsTestWithCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCostsTestWithCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB94316128633E0E002E30E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB94316328633E0E002E30E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,7 @@
 		EB94316D28633E0F002E30E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB94317028633E0F002E30E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB94317228633E0F002E30E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB94317928633EF9002E30E2 /* TabBarST.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarST.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +53,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB4A2ECD2863465D006DADFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A2ECE2863467A006DADFA /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB5F5F52286341DC0045D1B1 /* FirstTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F5F53286342050045D1B1 /* FirstTableViewController.swift */,
+				EB4A2ED6286361F7006DADFA /* MyViewController.swift */,
+			);
+			path = FirstTableView;
+			sourceTree = "<group>";
+		};
 		EB94315528633E0E002E30E2 = {
 			isa = PBXGroup;
 			children = (
+				EB4A2ED02863499A006DADFA /* TestCost+CoreDataClass.swift */,
+				EB4A2ED12863499A006DADFA /* TestCost+CoreDataProperties.swift */,
 				EB94316028633E0E002E30E2 /* MyCostsTestWithCoreData */,
 				EB94315F28633E0E002E30E2 /* Products */,
 			);
@@ -60,14 +93,26 @@
 			children = (
 				EB94316128633E0E002E30E2 /* AppDelegate.swift */,
 				EB94316328633E0E002E30E2 /* SceneDelegate.swift */,
-				EB94316528633E0E002E30E2 /* ViewController.swift */,
+				EB94317828633EDB002E30E2 /* TabBarControllers */,
 				EB94316728633E0E002E30E2 /* Main.storyboard */,
+				EB94316528633E0E002E30E2 /* ViewController.swift */,
 				EB94316D28633E0F002E30E2 /* Assets.xcassets */,
 				EB94316F28633E0F002E30E2 /* LaunchScreen.storyboard */,
 				EB94317228633E0F002E30E2 /* Info.plist */,
 				EB94316A28633E0E002E30E2 /* MyCostsTestWithCoreData.xcdatamodeld */,
 			);
 			path = MyCostsTestWithCoreData;
+			sourceTree = "<group>";
+		};
+		EB94317828633EDB002E30E2 /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB94317928633EF9002E30E2 /* TabBarST.storyboard */,
+				EB5F5F5028633FE80045D1B1 /* TabBarControllers.swift */,
+				EB5F5F52286341DC0045D1B1 /* FirstTableView */,
+				EB4A2ECD2863465D006DADFA /* Model */,
+			);
+			path = TabBarControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB94317128633E0F002E30E2 /* LaunchScreen.storyboard in Resources */,
+				EB94317A28633EFA002E30E2 /* TabBarST.storyboard in Resources */,
 				EB94316E28633E0F002E30E2 /* Assets.xcassets in Resources */,
 				EB94316928633E0E002E30E2 /* Main.storyboard in Resources */,
 			);
@@ -141,9 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4A2ED32863499A006DADFA /* TestCost+CoreDataProperties.swift in Sources */,
 				EB94316628633E0E002E30E2 /* ViewController.swift in Sources */,
 				EB94316C28633E0E002E30E2 /* MyCostsTestWithCoreData.xcdatamodeld in Sources */,
+				EB5F5F54286342050045D1B1 /* FirstTableViewController.swift in Sources */,
+				EB4A2ED22863499A006DADFA /* TestCost+CoreDataClass.swift in Sources */,
 				EB94316228633E0E002E30E2 /* AppDelegate.swift in Sources */,
+				EB4A2ED7286361F7006DADFA /* MyViewController.swift in Sources */,
+				EB5F5F5128633FE80045D1B1 /* TabBarControllers.swift in Sources */,
+				EB4A2ECF2863467A006DADFA /* CoreDataManager.swift in Sources */,
 				EB94316428633E0E002E30E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
